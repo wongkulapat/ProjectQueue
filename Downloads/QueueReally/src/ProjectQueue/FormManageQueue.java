@@ -75,7 +75,7 @@ public class FormManageQueue extends javax.swing.JFrame {
                     count ++;
                 }
             }if(count==0){
-                 alertMessage("ไม่มี PassengerID ในระบบ");
+                 alertMessage("ไม่มี ID ลูกค้านี้ในระบบ");
             }
 
         } finally {
@@ -99,7 +99,7 @@ public class FormManageQueue extends javax.swing.JFrame {
 
                 }
             }if(count==0){
-                 alertMessage("ไม่พบสถานที่ที่ต้องการค้นหา");
+                    alertMessage("สถานที่นี้ไม่มีในระบบ");
             }
 
         } finally {
